@@ -13,7 +13,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/websocket"
+	"github.com/mengccmumu/go-websocket"
 )
 
 var addr = flag.String("addr", "localhost:8080", "http service address")
